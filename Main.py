@@ -1,10 +1,28 @@
 import socket
+import threading
 
-server = socket.socket()  # создаём объект сокета сервера
-print(server)
-# hostname = socket.AddressInfo
-hostname = socket.gethostname()  # получаем имя хоста локальной машины
-port = 65134  # устанавливаем порт сервера
-server.bind((hostname, port))  # привязываем сокет сервера к хосту и порту
-print(server)
-server.listen(5)  # начинаем прослушивание входящих подключений [2](https://metanit.com/python/network/1.2.php)
+host = '0.0.0.0'
+port = 12345
+
+server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server.bind((host, port))
+server.listen()
+
+while True:
+    client, address = server.accept()
+
+    def InData():
+        while True:
+            try:
+                message = client.recv(1024).decode('utf-8')
+                if not message:
+                    break
+            except ConnectionResetError:
+                print("Successful disconnect")
+                break
+
+        client.close()
+
+    client_thread = threading.Thread(target=InData)
+    client_thread.start()
+    print(f"Successful connections: {threading.active_count() - 1}")
