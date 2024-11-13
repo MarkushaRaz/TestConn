@@ -33,5 +33,5 @@ while True:
     client, address = server.accept()
 
     client_thread = threading.Thread(target=InData)
-    client_thread = threading.start
-    print(f"Successful connections: {threading.active_count() - 1}")
+    client_thread.start()
+    print(f"> Successful connections: {threading.active_count() - 1}")

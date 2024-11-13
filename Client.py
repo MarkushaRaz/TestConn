@@ -6,4 +6,6 @@ port = 12345
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((host, port))
 
-print("> Successful connect")
+while True:
+    print("> Successful connect")
+    break
