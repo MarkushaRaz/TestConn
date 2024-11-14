@@ -1,6 +1,8 @@
 import socket
 import threading
-import subprocess
+from playsound import playsound
+
+playsound("All/Zvezda.mp3")
 
 host = '0.0.0.0'
 port = 12345
@@ -11,12 +13,12 @@ server.listen()
 
 print("> Successful new server")
 
-def SendComm(client):
-    command = "adb shell stagefright -a -o Zvezda.mp3"
-    try:
-        subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT)
-    except subprocess.CalledProcessError:
-        print("Error")
+# def SendComm(client):
+#     command = "adb shell stagefright -a -o Zvezda.mp3"
+#     try:
+#         subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT)
+#     except subprocess.CalledProcessError:
+#         print("Error")
 
 def InData():
     while True:
@@ -25,7 +27,7 @@ def InData():
             if not message:
                 break
         except ConnectionResetError:
-            print("Disconnect")
+            print("> Client disconnect")
 
     client.close()
 
@@ -35,3 +37,5 @@ while True:
     client_thread = threading.Thread(target=InData)
     client_thread.start()
     print(f"> Successful connections: {threading.active_count() - 1}")
+
+    command = input("|| ")
