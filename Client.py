@@ -1,4 +1,5 @@
 import socket
+from kivy.core.audio import SoundLoader
 
 host = '0.0.0.0'
 port = 12345
@@ -10,3 +11,6 @@ try:
     print("> Successful connect")
 except ConnectionRefusedError:
     print("> Error connect")
+
+sound = SoundLoader.load('Zvezda.mp3')
+sound.play()
