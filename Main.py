@@ -2,7 +2,7 @@ import socket
 import threading
 from playsound import playsound
 
-playsound("All/Zvezda.mp3")
+playsound("All//Zvezda.mp3")
 
 host = '0.0.0.0'
 port = 12345
