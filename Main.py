@@ -13,13 +13,6 @@ server.listen()
 
 print("> Successful new server")
 
-# def SendComm(client):
-#     command = "adb shell stagefright -a -o Zvezda.mp3"
-#     try:
-#         subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT)
-#     except subprocess.CalledProcessError:
-#         print("Error")
-
 def InData():
     while True:
         try:
