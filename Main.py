@@ -1,9 +1,9 @@
 import socket
 import threading
-# from kivy.core.audio import SoundLoader
+from kivy.core.audio import SoundLoader
 
-# sound = SoundLoader.load('All/Zvezda.mp3')
-# sound.play()
+sound = SoundLoader.load('Zvezda.mp3')
+sound.play()
 
 host = '0.0.0.0'
 port = 12345
