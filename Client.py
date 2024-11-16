@@ -14,3 +14,6 @@ except ConnectionRefusedError:
 
 sound = SoundLoader.load('Zvezda.mp3')
 sound.play()
+
+mess = client.recv(1024).decode('utf-8')
+print(mess)

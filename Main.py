@@ -8,11 +8,14 @@ sound.play()
 host = '0.0.0.0'
 port = 12345
 
-server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind((host, port))
-server.listen()
+try:
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server.bind((host, port))
+    server.listen()
 
-print("> Successful new server")
+    print("> Successful new server")
+except PermissionError:
+    print("> Error new server")
 
 def InData():
     while True:
@@ -33,3 +36,7 @@ while True:
     print(f"> Successful connections: {threading.active_count() - 1}")
 
     command = input("|| ")
+
+    if command == "start: main":
+        print("> start command: main")
+        client.send(command.encode('utf-8'))
