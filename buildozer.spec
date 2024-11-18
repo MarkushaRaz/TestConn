@@ -8,7 +8,7 @@ package.domain = org.example
 
 # Главный файл приложения
 source.dir = .
-source.include_exts = main.py,kv,atlas,All/*.mp3
+source.include_exts = py,kv,atlas,All/*.mp3
 source.exclude_exts = Main.py,Client.py,spec
 
 # Версия вашего приложения
