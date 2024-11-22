@@ -1,6 +1,6 @@
 [app]
 # Имя вашего приложения
-title = Beta: Deshit
+title = Beta: Anti-Totality
 
 # Пакетное имя (должно быть уникальным)
 package.name = test
@@ -14,6 +14,11 @@ source.exclude_exts = Main.py,Client.py,spec
 # Версия вашего приложения
 version = 1.0
 
+
+# Replace text after the build.gradle file is generated
+p4a.replacements = "s/jcenter()/mavenCentral()/g"
+
+
 # Требования (зависимости, которые необходимо включить)
 requirements = kivy
 
@@ -21,7 +26,7 @@ requirements = kivy
 android.api = 31
 
 # Минимальная версия NDK
-android.ndk = 25
+android.ndk = 25b
 
 # Минимальная версия SDK
 android.sdk = 31

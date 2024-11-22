@@ -7,7 +7,7 @@ build_time_vars = {'ABIFLAGS': '',
  'ALIGNOF_SIZE_T': 8,
  'ALT_SOABI': 0,
  'ANDROID_API_LEVEL': 21,
- 'AR': '/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar',
+ 'AR': '/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar',
  'ARFLAGS': 'rcs',
  'BASECFLAGS': '',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
@@ -15,7 +15,7 @@ build_time_vars = {'ABIFLAGS': '',
  'BINDIR': '/usr/local/bin',
  'BINLIBDEST': '/usr/local/lib/python3.11',
  'BLDLIBRARY': '-L. -lpython3.11',
- 'BLDSHARED': '/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/clang '
+ 'BLDSHARED': '/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang '
               '-target aarch64-linux-android21 -fomit-frame-pointer '
               '-march=armv8-a -fPIC -pthread -shared -Wl,-O1 '
               '-Wl,-Bsymbolic-functions '
@@ -23,18 +23,18 @@ build_time_vars = {'ABIFLAGS': '',
               '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
               '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
               '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-              '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
+              '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
               '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/test/arm64-v8a '
               '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
               '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
               '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-              '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
+              '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
  'BOOTSTRAP_HEADERS': '\\',
  'BUILDEXE': '',
  'BUILDPYTHON': 'python',
  'BUILD_GNU_TYPE': 'x86_64-pc-linux-gnu',
  'BYTESTR_DEPS': '\\',
- 'CC': '/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang',
+ 'CC': '/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang',
  'CCSHARED': '',
  'CFLAGS': '-DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DANDROID -fPIC -DANDROID',
  'CFLAGSFORSHARED': '',
@@ -46,19 +46,19 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGURE_CFLAGS_NODIST': '-std=c11 -Werror=implicit-function-declaration '
                             '-fvisibility=hidden',
  'CONFIGURE_CPPFLAGS': '-DANDROID '
-                       '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                       '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                        '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                        '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                        '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                        '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                        '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                        '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                       '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
+                       '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
  'CONFIGURE_LDFLAGS': '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/test/arm64-v8a '
                       '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
                       '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
                       '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-                      '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
+                      '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
  'CONFIGURE_LDFLAGS_NODIST': '',
  'CONFIGURE_LDFLAGS_NOLTO': '',
  'CONFIG_ARGS': "'--host=aarch64-linux-android' '--build=x86_64-pc-linux-gnu' "
@@ -73,23 +73,23 @@ build_time_vars = {'ABIFLAGS': '',
                 "'build_alias=x86_64-pc-linux-gnu' "
                 "'host_alias=aarch64-linux-android' "
                 "'PKG_CONFIG_PATH=/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi' "
-                "'CC=/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang' "
+                "'CC=/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang' "
                 "'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  "
                 '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/test/arm64-v8a '
                 '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
                 '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
                 '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-                "-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21' "
+                "-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21' "
                 "'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' "
                 "'CPPFLAGS=-DANDROID "
-                '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                "-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include'",
+                "-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include'",
  'CONFINCLUDEDIR': '/usr/local/include',
  'CONFINCLUDEPY': '/usr/local/include/python3.11',
  'COREPYTHONPATH': '',
@@ -102,24 +102,24 @@ build_time_vars = {'ABIFLAGS': '',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include '
              '-DANDROID '
-             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
              '-DANDROID '
-             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
- 'CXX': '/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ '
+             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
+ 'CXX': '/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ '
         '-target aarch64-linux-android21 -fomit-frame-pointer -march=armv8-a '
         '-fPIC',
  'DECIMAL_CFLAGS': '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Modules/_decimal/libmpdec '
@@ -671,7 +671,7 @@ build_time_vars = {'ABIFLAGS': '',
  'INSTSONAME': 'libpython3.11.so.1.0',
  'IO_H': 'Modules/_io/_iomodule.h',
  'IO_OBJS': '\\',
- 'LDCXXSHARED': '/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/clang '
+ 'LDCXXSHARED': '/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang '
                 '-target aarch64-linux-android21 -fomit-frame-pointer '
                 '-march=armv8-a -fPIC -pthread -shared -Wl,-O1 '
                 '-Wl,-Bsymbolic-functions',
@@ -679,16 +679,16 @@ build_time_vars = {'ABIFLAGS': '',
             '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
             '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
             '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-            '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
+            '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
             '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/test/arm64-v8a '
             '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
             '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
             '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-            '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
+            '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
  'LDFLAGS_NODIST': '',
  'LDLIBRARY': 'libpython3.11.so',
  'LDLIBRARYDIR': '',
- 'LDSHARED': '/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/clang '
+ 'LDSHARED': '/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang '
              '-target aarch64-linux-android21 -fomit-frame-pointer '
              '-march=armv8-a -fPIC -pthread -shared -Wl,-O1 '
              '-Wl,-Bsymbolic-functions '
@@ -696,12 +696,12 @@ build_time_vars = {'ABIFLAGS': '',
              '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
              '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
              '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-             '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
+             '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
              '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/test/arm64-v8a '
              '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
              '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
              '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-             '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
+             '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
  'LDVERSION': '3.11',
  'LIBC': '',
  'LIBDEST': '/usr/local/lib/python3.11',
@@ -715,23 +715,23 @@ build_time_vars = {'ABIFLAGS': '',
                     '-IObjects -IInclude -IPython -I. '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include '
                     '-DANDROID '
-                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                     '-DANDROID '
-                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
+                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
  'LIBEXPAT_HEADERS': '\\',
  'LIBEXPAT_OBJS': '\\',
  'LIBFFI_INCLUDEDIR': '/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include',
@@ -746,23 +746,23 @@ build_time_vars = {'ABIFLAGS': '',
                     '-IObjects -IInclude -IPython -I. '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include '
                     '-DANDROID '
-                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                     '-DANDROID '
-                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                     '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
+                    '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
  'LIBMPDEC_HEADERS': '\\',
  'LIBMPDEC_OBJS': '\\',
  'LIBOBJDIR': 'Python/',
@@ -776,7 +776,7 @@ build_time_vars = {'ABIFLAGS': '',
  'LIBRARY_OBJS_OMIT_FROZEN': '\\',
  'LIBS': '-ldl  -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz',
  'LIBSUBDIRS': 'asyncio \\',
- 'LINKCC': '/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang',
+ 'LINKCC': '/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang',
  'LINKFORSHARED': '-pie -Xlinker -export-dynamic',
  'LINK_PYTHON_DEPS': 'libpython3.11.a libpython3.11.so libpython3.so',
  'LINK_PYTHON_OBJS': '-L. -lpython3.11',
@@ -784,7 +784,7 @@ build_time_vars = {'ABIFLAGS': '',
  'LIPO_INTEL64_FLAGS': '',
  'LLVM_PROF_ERR': 'no',
  'LLVM_PROF_FILE': 'LLVM_PROFILE_FILE="code-%p.profclangr"',
- 'LLVM_PROF_MERGER': '/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-profdata '
+ 'LLVM_PROF_MERGER': '/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-profdata '
                      'merge -output=code.profclangd *.profclangr',
  'LN': 'ln',
  'LOCALMODLIBS': '',
@@ -792,7 +792,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MACHDEP_OBJS': '',
  'MACHDESTLIB': '/usr/local/lib/python3.11',
  'MACOSX_DEPLOYMENT_TARGET': '',
- 'MAINCC': '/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang',
+ 'MAINCC': '/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 1,
  'MAKESETUP': '/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Modules/makesetup',
@@ -1066,23 +1066,23 @@ build_time_vars = {'ABIFLAGS': '',
                              '-IObjects -IInclude -IPython -I. '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include '
                              '-DANDROID '
-                             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                              '-DANDROID '
-                             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                              '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                             '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DANDROID -fPIC -DANDROID',
  'PY_CFLAGS_NODIST': '-std=c11 -Werror=implicit-function-declaration '
@@ -1096,77 +1096,77 @@ build_time_vars = {'ABIFLAGS': '',
                    '-IObjects -IInclude -IPython -I. '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include '
                    '-DANDROID '
-                   '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                   '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                   '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                   '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                    '-DANDROID '
-                   '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                   '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                    '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                   '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                   '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                    '-DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/test/arm64-v8a '
                     '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
                     '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
                     '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-                    '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
+                    '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
                     '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/test/arm64-v8a '
                     '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
                     '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
                     '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-                    '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
+                    '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include '
                 '-DANDROID '
-                '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                 '-DANDROID '
-                '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                 '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
+                '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
  'PY_ENABLE_SHARED': 1,
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/test/arm64-v8a '
                '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
                '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
                '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-               '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
+               '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
                '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/test/arm64-v8a '
                '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
                '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
                '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-               '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
+               '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
  'PY_LDFLAGS_NODIST': '',
  'PY_LDFLAGS_NOLTO': '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/test/arm64-v8a '
                      '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
                      '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
                      '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-                     '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
+                     '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21   '
                      '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/test/arm64-v8a '
                      '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3/obj/local/arm64-v8a '
                      '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/.libs '
                      '-L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1 '
-                     '-L/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
+                     '-L/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21',
  'PY_SQLITE_ENABLE_LOAD_EXTENSION': 1,
  'PY_SQLITE_HAVE_SERIALIZE': 0,
  'PY_SSL_DEFAULT_CIPHERS': 1,
@@ -1179,23 +1179,23 @@ build_time_vars = {'ABIFLAGS': '',
                         '-IObjects -IInclude -IPython -I. '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/arm64-v8a__ndk_target_21/python3/Include '
                         '-DANDROID '
-                        '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                        '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                        '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                        '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                         '-DANDROID '
-                        '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
+                        '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/test/arm64-v8a/include/python3.1 '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/arm64-v8a__ndk_target_21/sqlite3 '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/arm64-v8a__ndk_target_21/libffi/include '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/internal '
                         '-I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1/include/openssl '
-                        '-I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
+                        '-I/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include',
  'PY_SUPPORT_TIER': 0,
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 1,
@@ -1203,7 +1203,7 @@ build_time_vars = {'ABIFLAGS': '',
  'Py_STATS': 0,
  'Py_TRACE_REFS': 0,
  'QUICKTESTOPTS': '-x test_subprocess test_io test_lib2to3 \\',
- 'READELF': '/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf',
+ 'READELF': '/home/codespace/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
