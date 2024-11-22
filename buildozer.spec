@@ -49,3 +49,7 @@ warn_on_root = 1
 
 # Целевая платформа
 target = android
+
+# Custom build.gradle
+android.gradle_dependencies = com.android.tools.build:gradle:8.1.1
+android.gradle_settings_path = ./custom_build.gradle
