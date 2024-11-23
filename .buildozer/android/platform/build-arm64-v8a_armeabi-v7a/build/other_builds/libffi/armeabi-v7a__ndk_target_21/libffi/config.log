@@ -31,8 +31,19 @@ PATH: /home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llv
 PATH: /home/codespace/.buildozer/android/platform/android-ndk-r25
 PATH: /home/codespace/.buildozer/android/platform/android-sdk/tools
 PATH: /home/codespace/.buildozer/android/platform/apache-ant-1.9.4/bin
+PATH: /usr/lib/jvm/java-11-openjdk-amd64/bin
+PATH: /usr/lib/jvm/java-11-openjdk-amd64/bin/java/bin
+PATH: /usr/lib/jvm/java-11-openjdk-amd64/bin
+PATH: /usr/lib/jvm/java-11-openjdk-amd64/bin
+PATH: /usr/lib/jvm/java-11-openjdk-amd64/bin
+PATH: /usr/lib/jvm/java-11-openjdk-amd64/bin
+PATH: /usr/lib/jvm/java-11-openjdk-amd64/bin
+PATH: /usr/lib/jvm/java-11-openjdk-amd64/bin/java/bin
+PATH: /path/to/java11/bin
+PATH: /path/to/java11/bin
 PATH: /home/codespace/.vscode-remote/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash
 PATH: /workspaces/TestConn/venv/bin
+PATH: /usr/lib/jvm/java-11-openjdk-amd64/bin
 PATH: /usr/local/rvm/gems/ruby-3.3.4/bin
 PATH: /usr/local/rvm/gems/ruby-3.3.4@global/bin
 PATH: /usr/local/rvm/rubies/ruby-3.3.4/bin
@@ -1035,7 +1046,7 @@ configure:13135: checking for memfd_create
 configure:13135: /home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -o conftest -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -Wall -fexceptions -DANDROID -I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/yourapp/armeabi-v7a/include/python3.1   -L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/yourapp/armeabi-v7a conftest.c  >&5
 ld: error: undefined symbol: memfd_create
 >>> referenced by conftest.c
->>>               /tmp/conftest-afac6d.o:(main)
+>>>               /tmp/conftest-13b2de.o:(main)
 clang-14: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:13135: $? = 1
 configure: failed program was:
@@ -1119,7 +1130,7 @@ configure:13160: checking for mkostemp
 configure:13160: /home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -o conftest -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC -Wall -fexceptions -DANDROID -I/home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/yourapp/armeabi-v7a/include/python3.1   -L/workspaces/TestConn/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/yourapp/armeabi-v7a conftest.c  >&5
 ld: error: undefined symbol: mkostemp
 >>> referenced by conftest.c
->>>               /tmp/conftest-3b4fc2.o:(main)
+>>>               /tmp/conftest-a409e1.o:(main)
 >>> did you mean: mkstemp
 >>> defined in: /home/codespace/.buildozer/android/platform/android-ndk-r25/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/lib/arm-linux-androideabi/21/libc.so
 clang-14: error: linker command failed with exit code 1 (use -v to see invocation)
