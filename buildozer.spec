@@ -1,46 +1,38 @@
 [app]
-# Имя вашего приложения
-title = Beta: Anti-Totality
+# Название приложения
+title = YourAppName
 
-# Пакетное имя (должно быть уникальным)
-package.name = test
+# Уникальное название пакета
+package.name = yourapp
 package.domain = org.example
 
 # Главный файл приложения
 source.dir = .
-source.include_exts = py,kv,atlas,All/*.mp3
-source.exclude_exts = Main.py,Client.py,spec
+source.include_exts = py,mp3
+source.exclude_exts = spec
+source.exclude_dirs = tests
 
-# Версия вашего приложения
+# Версия приложения
 version = 1.0
 
-
-# Replace text after the build.gradle file is generated
-p4a.replacements = "s/jcenter()/mavenCentral()/g"
-
-
-# Требования (зависимости, которые необходимо включить)
+# Требования (зависимости)
 requirements = kivy
 
 # Минимальная версия Android API
 android.api = 31
 
 # Минимальная версия NDK
-android.ndk = 25b
+android.ndk = 25
 
-# Минимальная версия SDK
-android.sdk = 31
+# Ресурсы
+android.include_exts = mp3
+android.allow_backup = 1
 
-# Платформы для сборки
-android.archs = arm64-v8a, armeabi-v7a
+# Ориентация приложения
+orientation = portrait
 
-# Архив ресурсов
-android.include_exts = mp3,ogg,wav,ttf,png,jpg
-
-# Название файла APK
-android.debug_keystore = %(source.dir)s/debug.keystore
-android.debug_keystore_passwd = android
-android.debug_key_alias = androiddebugkey
+# Включить поддержку AndroidX
+android.enable_androidx = True
 
 [buildozer]
 # Логи
@@ -49,7 +41,3 @@ warn_on_root = 1
 
 # Целевая платформа
 target = android
-
-# Custom build.gradle
-android.gradle_dependencies = com.android.tools.build:gradle:8.1.1
-android.gradle_settings_path = ./custom_build.gradle
